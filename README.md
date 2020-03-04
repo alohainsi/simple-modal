@@ -17,9 +17,9 @@ The same as Angular Material Dialog, but more light.
 ```
 /**
  * Show the modal
- *  => sm.show(false|true) - gonna close all modals
- *  => sm.show('ComponentNameId') - gonna show a modal with id "ComponentNameId"
- *  => sm.show() - gonna show the last opened modal
+ *  => sm.show(false|true) - it will close all modals
+ *  => sm.show('ComponentNameId') - it will show a modal with id "ComponentNameId"
+ *  => sm.show() - it will show the last opened modal
  * @param {string|boolean} id
 */
 ```
@@ -27,17 +27,17 @@ The same as Angular Material Dialog, but more light.
 ```
 /**
  * Hide the modal
- *  => sm.hide(false|true) - gonna hide all existing modals
- *  => sm.hide('ComponentNameId')	- gonna hide a modal with id "ComponentNameId"
- *  => sm.hide() - gonna hide the last opened modal
+ *  => sm.hide(false|true) - it will hide all existing modals
+ *  => sm.hide('ComponentNameId') - ot will hide a modal with id "ComponentNameId"
+ *  => sm.hide() - it will hide the last opened modal
  * @param {string|boolean} id
  */
 ```
 ```
 /**
  * Close the modal
- * => sm.close(false|true) - gonna close all existing modals
- * => sm.close('ComponentNameId') - gonna close a modal with id "ComponentNameId"
+ * => sm.close(false|true) - it will close all existing modals
+ * => sm.close('ComponentNameId') - it will close a modal with id "ComponentNameId"
  * @param {string} id
 */
 ```
@@ -45,19 +45,18 @@ The same as Angular Material Dialog, but more light.
 ```
 /**
 	 * Open modal
-	 * => sm.open('ComponentNameId', data, options) - gonna open a new modal with a "ComponentNameId" in inside (component name is a string)
-	 * => sm.open(Component, data, options) - gonna open a new modal with a "Component" in inside (component is an instance)
+	 * => sm.open('ComponentNameId', data, options) - it will open a new modal with a "ComponentNameId" in inside (component name is a string)
+	 * => sm.open(Component, data, options) - it will open a new modal with a "Component" in inside (component is an instance)
 	 * => sm.open(Component, data, {
 	 * 		position: T_MODAL_POSITION.TOP // the modal position would be in a top of a page
-	 * 		// If a position different then center, it would be good to specify dimensions for the device types,
-	 * 		otherwise SimpleModal gonna use default values from config itself
+	 * 		// If a position is different than the center, it would be good to specify dimensions for the device types, otherwise SimpleModal will use default values from config itself
 	 * 		dimensions: {
 	 * 			mobile: {height: 30}, // Modal width for the mobile devices
 				tablet: {height: 25}, // Modal width for the tablet devices
 				desktop: {width: 100, height: 20}, // Modal width for the desktop devices
 				isPercent: true // Default value. Gonna calculate dimensions in percent, otherwise in pixel
 	 * 		},
-	 * 		 isShade: true // gonna display the shade for the modal
+	 * 		 isShade: true // it will display the shade for the modal
 	 * 	})
 	 * @param {any} component
 	 * @param {any} data
