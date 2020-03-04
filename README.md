@@ -65,7 +65,7 @@ The same as Angular Material Dialog, but more light.
 	 * @return {string}
 */
 ```
-### Few example
+### Few examples
 
 #### Position: CENTER
 
