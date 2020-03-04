@@ -1,0 +1,13 @@
+/**
+ * Export KEYS
+ * @type {{}}
+ */
+export const SimpleModalKeys = {
+	OVERRIDE: 'OVERRIDE',
+	OPEN_MODAL: 'OPEN_MODAL',
+	CLOSE_MODAL: 'CLOSE_MODAL',
+	HIDE_MODAL: 'HIDE_MODAL',
+	SHOW_MODAL: 'SHOW_MODAL',
+	LAST_ID: 'LAST_ID',
+	LAST_Z_INDEX: 'LAST_Z_INDEX'
+};

@@ -1,0 +1,28 @@
+@import "variables/colors";
+
+#simple-modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.simple-modal-shade {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: $color-dark-gray;
+	opacity: 0.6;
+}
+
+.simple-modal-body {
+	position: absolute;
+	width: auto;
+	height: auto;
+	z-index: 1000;
+	overflow: auto;
+}

@@ -1,0 +1,6 @@
+<div id="simple-modal" [ngStyle]="parentCss" *ngIf="!isHidden">
+	<div class="simple-modal-body" [ngStyle]="childCss">
+		<span #container></span>
+	</div>
+	<div *ngIf="!isHidden && isShade" class="simple-modal-shade"></div>
+</div>
